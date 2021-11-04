@@ -22,8 +22,8 @@ body {
     font-size: 14px;
     color: var(--white);
 }
-/*
-@media screen and (max-width: 365px){
+
+@media screen and (max-width: 500px){
 div.container{
     max-width: 350px;
     padding: 30px;
@@ -284,12 +284,13 @@ div .seven-one {
     color: hsl(228, 45%, 44%); 
 }
 }
-*/
+
 @media  screen and (min-width: 768px){
-    
+
     .container {
         padding: 50px;
     }
+
     header {
         display: flex;
         justify-content: space-between;
@@ -467,6 +468,7 @@ div .seven-one {
         font-size: 10px;
         font-weight: normal;
     }
+
     .ceo img {
         border-radius: 50%;
     }
